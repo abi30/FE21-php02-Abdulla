@@ -91,8 +91,8 @@ $temp_messWithImg=array(
 if ($celsius>=0 && $celsius<=5){
   echo '
   
-  <div class="card" >
-  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[0]['img'].'">
+  <div class="card w-50" >
+  <img class="card-img-top  m-auto" src="'.$temp_messWithImg[0]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[0]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[0]['location'] . '</p>
@@ -108,8 +108,8 @@ if ($celsius>=0 && $celsius<=5){
 
   echo '
   
-  <div class="card" >
-  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[1]['img'].'">
+  <div class="card w-50" >
+  <img class="card-img-top  m-auto" src="'.$temp_messWithImg[1]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[1]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[1]['location'] . '</p>
@@ -124,8 +124,8 @@ if ($celsius>=0 && $celsius<=5){
 elseif ($celsius>=11 && $celsius<=15) {
   echo '
   
-  <div class="card" >
-  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[2]['img'].'">
+  <div class="card w-50 " >
+  <img class="card-img-top m-auto" src="'.$temp_messWithImg[2]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[2]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[2]['location'] . '</p>
@@ -139,8 +139,8 @@ elseif ($celsius>=11 && $celsius<=15) {
 elseif ($celsius>=16 && $celsius<=20) {
   echo '
   
-  <div class="card" >
-  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[3]['img'].'">
+  <div class="card w-50" >
+  <img class="card-img-top  m-auto" src="'.$temp_messWithImg[3]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[3]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[3]['location'] . '</p>
@@ -154,8 +154,8 @@ elseif ($celsius>=16 && $celsius<=20) {
 elseif ($celsius>=21) {
   echo '
   
-  <div class="card" >
-  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[4]['img'].'">
+  <div class="card w-50" >
+  <img class="card-img-top  m-auto" src="'.$temp_messWithImg[4]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[4]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[4]['location'] . '</p>
