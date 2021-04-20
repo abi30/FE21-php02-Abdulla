@@ -18,41 +18,15 @@
 
 
 
+   <form action="index.php"method="POST"; >
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">please fahrenheit value</label>
+    <input type="number" class="form-control" name ="given_value" required>
   
+  </div> 
+  <button type="submit" name="btn" class="btn btn-primary">Get Celsius</button>
+</form>
 
-
-<form action="" method="post">
-	<table>
-
-		<tr>
-			<td>
-				<select name="first_temp_type_name">
-         <option value="fahrenheit">Fahrenheit</option>
-					<!-- <option value="celsius">Celsius</option> -->
-				</select>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<input type="number" name="given_value">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<select name="second_temp_type_name">
-					<option value="celsius">Celsius</option>
-					<!-- <option value="fahrenheit">Fahrenheit</option> -->
-			
-				</select>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<input type="submit" name="btn" value="Convert">
-			</td>
-		</tr>
-		<tr>
-			<td>
 
 <?php
 
@@ -76,35 +50,14 @@ if(isset($_POST['btn']))
 
 {
     
-    $first_temp_type_name=$_POST['first_temp_type_name'];
-    $second_temp_type_name=$_POST['second_temp_type_name'];
     $given_value=$_POST['given_value'];
     
     //Fahrenheit to celsius 
-    if ($first_temp_type_name=='fahrenheit') 
-    {
-        if ($second_temp_type_name=='celsius') 
-        {
+   
+             $celsius=(round(fahrenheit_celsius($given_value),2));
+             echo "$given_value Fahrenheit = $celsius Celsius <br/>";
         
-            $celsius=(round(fahrenheit_celsius($given_value),2));
-            echo "$given_value Fahrenheit = $celsius Celsius <br/>";
-        } 
-        //   else{
-        //     echo "$given_value Fahrenheit";
-        // }
-    }
-    // Celsius to fahrenheit 
-    // if ($first_temp_type_name=='celsius') 
-    // {
-    //     if ($second_temp_type_name=='fahrenheit') 
-    //     {
-       
-    //         $fahrenheit=celsius_fharenheit($given_value);
-	  //       echo "$given_value Celsius  = $fahrenheit Fahrenheit";
-    //     }else{
-    //         echo "$given_value Celsius";
-    //     }
-    // }
+   
    
 }
 // echo "$celsius";
