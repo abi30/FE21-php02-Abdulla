@@ -154,7 +154,7 @@ if ($celsius>=0 && $celsius<=5){
   <div class="card" >
   <img class="card-img-top m-auto" src="'.$temp_messWithImg[0]['img'].'">
       <div class="card-body">
-          <h5 class="card-title"> Weather:.' . $temp_messWithImg[0]['temp'].' </h5>
+          <h5 class="card-title"> Weather:' . $temp_messWithImg[0]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[0]['location'] . '</p>
           <p class="card-text">Weather: ' .$temp_messWithImg[0]['info'] . '</p>
       </div>
@@ -171,7 +171,7 @@ if ($celsius>=0 && $celsius<=5){
   <div class="card" >
   <img class="card-img-top m-auto" src="'.$temp_messWithImg[1]['img'].'">
       <div class="card-body">
-          <h5 class="card-title"> Weather:.' . $temp_messWithImg[1]['temp'].' </h5>
+          <h5 class="card-title"> Weather:' . $temp_messWithImg[1]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[1]['location'] . '</p>
           <p class="card-text">Weather: ' .$temp_messWithImg[1]['info'] . '</p>
       </div>
@@ -187,7 +187,7 @@ elseif ($celsius>=11 && $celsius<=15) {
   <div class="card" >
   <img class="card-img-top m-auto" src="'.$temp_messWithImg[2]['img'].'">
       <div class="card-body">
-          <h5 class="card-title"> Weather:.' . $temp_messWithImg[2]['temp'].' </h5>
+          <h5 class="card-title"> Weather:' . $temp_messWithImg[2]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[2]['location'] . '</p>
           <p class="card-text">Weather: ' .$temp_messWithImg[2]['info'] . '</p>
       </div>
@@ -202,7 +202,7 @@ elseif ($celsius>=16 && $celsius<=20) {
   <div class="card" >
   <img class="card-img-top m-auto" src="'.$temp_messWithImg[3]['img'].'">
       <div class="card-body">
-          <h5 class="card-title"> Weather:.' . $temp_messWithImg[3]['temp'].' </h5>
+          <h5 class="card-title"> Weather:' . $temp_messWithImg[3]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[3]['location'] . '</p>
           <p class="card-text">Weather: ' .$temp_messWithImg[3]['info'] . '</p>
       </div>
@@ -217,7 +217,7 @@ elseif ($celsius>=21) {
   <div class="card" >
   <img class="card-img-top m-auto" src="'.$temp_messWithImg[4]['img'].'">
       <div class="card-body">
-          <h5 class="card-title"> Weather:.' . $temp_messWithImg[4]['temp'].' </h5>
+          <h5 class="card-title"> Weather:' . $temp_messWithImg[4]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[4]['location'] . '</p>
           <p class="card-text">Weather: ' .$temp_messWithImg[4]['info'] . '</p>
       </div>
