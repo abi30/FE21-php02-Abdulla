@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
+    <link href="style.css">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -88,24 +88,11 @@ $temp_messWithImg=array(
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 if ($celsius>=0 && $celsius<=5){
   echo '
   
   <div class="card" >
-  <img class="card-img-top m-auto" src="'.$temp_messWithImg[0]['img'].'">
+  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[0]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[0]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[0]['location'] . '</p>
@@ -122,7 +109,7 @@ if ($celsius>=0 && $celsius<=5){
   echo '
   
   <div class="card" >
-  <img class="card-img-top m-auto" src="'.$temp_messWithImg[1]['img'].'">
+  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[1]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[1]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[1]['location'] . '</p>
@@ -138,7 +125,7 @@ elseif ($celsius>=11 && $celsius<=15) {
   echo '
   
   <div class="card" >
-  <img class="card-img-top m-auto" src="'.$temp_messWithImg[2]['img'].'">
+  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[2]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[2]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[2]['location'] . '</p>
@@ -153,7 +140,7 @@ elseif ($celsius>=16 && $celsius<=20) {
   echo '
   
   <div class="card" >
-  <img class="card-img-top m-auto" src="'.$temp_messWithImg[3]['img'].'">
+  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[3]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[3]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[3]['location'] . '</p>
@@ -168,7 +155,7 @@ elseif ($celsius>=21) {
   echo '
   
   <div class="card" >
-  <img class="card-img-top m-auto" src="'.$temp_messWithImg[4]['img'].'">
+  <img class="card-img-top w-50 m-auto" src="'.$temp_messWithImg[4]['img'].'">
       <div class="card-body">
           <h5 class="card-title"> Weather:' . $temp_messWithImg[4]['temp'].' </h5>
           <p class="card-text">Location: ' . $temp_messWithImg[4]['location'] . '</p>
@@ -181,35 +168,8 @@ elseif ($celsius>=21) {
 }
 
 
-
-
-
-
-
-
-
-
-
 				?>
-			</td>
-		</tr>
-	</table>
-	</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
   
   </div>
    
